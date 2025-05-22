@@ -145,28 +145,10 @@ Each folder contains:
 ```bash
 pip install torch transformers matplotlib seaborn pandas
 
-## 🔐 Hugging Face Authentication
-
-To download models like `meta-llama/Llama-3.2-1B-Instruct`, you need to authenticate with the Hugging Face Hub:
-
-```python
 from huggingface_hub import login
 login(token="your_huggingface_token_here")
 
-▶️ How to Run
-🔁 Full Pipeline
-
-```bash
 python llama3_2_1B.py
 
 ---
 
-### 🔥 COMMON MISTAKE:
-
-If you forget to **close the code block**, like this:
-
-```markdown
-```python
-from huggingface_hub import login
-login(token="your_huggingface_token_here")
-## 🔐 Hugging Face Authentication   <-- This becomes part of the Python block ❌
