@@ -151,13 +151,14 @@ login(token="your_huggingface_token_here")
 python llama3_2_1B.py
 
 ---
----
 
-**##📄 Citation**
+## Citation
+
 
 If you find this work useful, please cite:
 
-```
+
+```bash
 @article{UnlearnBias_EMNLP2025,
   title={Toward Inclusive Language Models: Sparsity-Driven Calibration for Systematic and Interpretable Mitigation of Social Biases in LLMs},
   author={Prommy Sultana Hossain, Chahat Raj, Ziwei Zhu, Jessica Lin, Emanuela Marasco},
@@ -166,6 +167,7 @@ If you find this work useful, please cite:
 }
 ```
 
----
+
+
 
 
