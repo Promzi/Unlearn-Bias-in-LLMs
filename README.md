@@ -1,6 +1,6 @@
 # 🔍 Toward Inclusive Language Models
 **Sparsity-Driven Calibration for Systematic and Interpretable Mitigation of Social Biases in LLMs**  
-*EMNLP 2025 Submission*
+*EMNLP 2025 Accepted*
 
 This repository presents a full pipeline for detecting, localizing, and mitigating social biases in decoder-only transformer language models. Our method operates post hoc without requiring model retraining or gradient access. It is grounded in interpretable, architecture-aware interventions that systematically suppress stereotype amplification via sparsity-driven soft pruning.
 
@@ -138,6 +138,7 @@ Each folder contains:
 
 ---
 
+
 ## ⚙️ Setup Instructions
 
 ### Dependencies
@@ -150,8 +151,7 @@ login(token="your_huggingface_token_here")
 
 python llama3_2_1B.py
 
----
-
+```
 ## Citation
 
 
@@ -166,6 +166,8 @@ If you find this work useful, please cite:
   year={2025}
 }
 ```
+
+
 
 
 
